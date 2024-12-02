@@ -1,6 +1,7 @@
 import Feed from "@components/Feed"
 
 const Home = () => {
+  
   return (
     <section className="w-fullflex-center flex-col">
       <h1 className="head_text text-center">
