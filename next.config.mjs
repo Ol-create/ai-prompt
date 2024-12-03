@@ -13,7 +13,10 @@ const nextConfig = {
         topLevelAwait: true,
       }
       return config
-    }
+    },
+    devIndicators: {
+        hostname: "localhost.com:3000",
+      },
   }
   
   export default nextConfig;
